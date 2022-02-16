@@ -27,6 +27,7 @@ button {
   overflow: hidden;
   margin: 10px 0;
   position: relative;
+  border-radius: 2px;
 }
 
 button .circle {
@@ -37,13 +38,11 @@ button .circle {
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
   animation: scale 0.5s ease-out;
-
 }
 
 @keyframes scale {
   to {
     transform: translate(-50%, -50%);
     opacity: 0;
-
   }
 }
